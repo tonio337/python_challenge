@@ -1,4 +1,4 @@
-# This should solve ocr.html
+# This should solve equality.html
 
 import functools
 import re
