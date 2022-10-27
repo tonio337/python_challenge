@@ -12,5 +12,5 @@ def url_text(filename):
 	return urltext
 
 def comments(text):
-	pattern = xre.compile("<!--\n(.*?)\n-->", re.S)
+	pattern = re.compile("<!--\n(.*?)\n-->", re.S)
 	return pattern.findall(urltext)
